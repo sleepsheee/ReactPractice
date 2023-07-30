@@ -1,0 +1,45 @@
+js key word: class, for
+
+{} in html is to run js code
+
+one func can only return 1 element
+ 1. wrap all things in a div
+ 2 .use a fragment
+
+
+Js Arrow Function
+
+1. 2 param
+function sum(a, b) {
+  return a + b
+}
+
+let sum2 = (a, b) => {
+  return a + b
+}
+
+let sum2 = (a, b) => a + b
+
+
+2. 1 param
+function isPositive(number) {
+  return number >= 0
+}
+
+let isPositive = (number) =>  number >=  0
+
+let isPositive = number =>  number >=  0
+
+3. no param
+function randomNumber() {
+  return Math.random()
+}
+
+let randomNumber = () => Math.random()
+
+4. Anonymous
+document.addEventListener("click", function () {
+  console.log("Click")
+})
+
+document.addEventListener("click",  () => console.log("Click"))
